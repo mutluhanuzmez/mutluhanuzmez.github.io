@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Mutluhan ÜZMEZ]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 20 Apr 2019 01:06:20 GMT</lastBuildDate><item><title><![CDATA[Paper Summaries for Graduation(EEG)]]></title><description><![CDATA[In this post, there will be explanations of keywords about the subject which is EEG(electroencephalogram) and BCI(brain-computer interface…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//paper-summaries-eeg/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//paper-summaries-eeg/</guid><pubDate>Sun, 07 Apr 2019 17:50:05 GMT</pubDate><content:encoded>&lt;p&gt;In this post, there will be explanations of keywords about the subject which is EEG(electroencephalogram) and BCI(brain-computer interface).&lt;/p&gt;
+&lt;p&gt;All the &lt;code class=&quot;language-text&quot;&gt;unknown terms&lt;/code&gt; will be listed as randomly because I will write the explanations of term one by one when I saw one in an article.&lt;/p&gt;
+&lt;h3&gt;Unknown Terms in the Paper for me&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Sensorimotor(SMR)
+The &lt;strong&gt;sensorimotor rhythm&lt;/strong&gt; (SMR) is a brain wave. It is an oscillatory idle &lt;strong&gt;rhythm&lt;/strong&gt; of synchronized electric brain activity. It appears in spindles in recordings of EEG, MEG, and ECoG over the &lt;strong&gt;sensorimotor&lt;/strong&gt;cortex. For most individuals, the frequency of the SMR is in the range of 13 to 15 Hz.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Motor-Imagery(MI) ?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Extreme Learning Machine?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Event-related Desynchronization(ERD)?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Paper Examinations and Summaries&lt;/h1&gt;
+&lt;h2&gt;1- Multi-kernel extreme learning machine for EEG classification in brain-computer interfaces - 2017&lt;/h2&gt;
+&lt;h3&gt;Authors&lt;/h3&gt;
+&lt;p&gt; Yu Zhang, Yu Wang, Guoxu Zhou, Jing Jin, Bei Wang, Xingyu Wang, Andrzej Cichocki&lt;/p&gt;
+&lt;h3&gt;Motivation and brief overview (from Abstract)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Goal: Designing a powerful EEG data classifier with strong  generalization capability for the development of a motor-imagery based brain-computer interface(BCI) using extreme learning machine. &lt;/li&gt;
+&lt;li&gt;Proposed Solution: A multi kernel extreme learning machine (ELM)(MKELM) based for motor-imagery electroencephalogram(EEG) classification. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Previous methods (Intro) &amp;#x26; their limitations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Linear Discriminant Analysis(LDA) works for pattern classification if the sample covariance matrices are similar among different classes. But ERD classification with LDA can cause overfitting.&lt;/li&gt;
+&lt;li&gt;Common spatial pattern(CSP) and SVM when they are used together, it becomes one of the most popular classifier for EEG data. Common spatial pattern is effective method for feature extraction in classifying two classes of motor imagery EEG data and SVM has good generalization capability with adopted soft margin.&lt;/li&gt;
+&lt;li&gt;Effectiveness of Bayesian ELM is validated for EEG classification. However, the randomly assigned node parameters generally result in a large variation in classification accuracy for different runnings with the same number of hiddden nodes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Proposed Solution&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ELM has recently proven to be comparable or better than support vector machine(SVM) for  pattern matching. &lt;/li&gt;
+&lt;li&gt;Instead of using a single kernel, ELM with multi kernel has recently arisen. SVM classification preceeded by CSP feature extraction is applied again and ELM also added as an extension layer to optimize the success.&lt;/li&gt;
+&lt;li&gt;Gaussian kernel and polynomial kernel are exploited to map the original CSP features to different nonlinear feature spaces.Accordingly, by integrating both kernels, using a multi-kernel learning strategy to achieve more robust classification of EEG in MI tasks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Discoveries&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Using the multi-kernel extreme learning machine with both integrating gaussian kernel and polynomial kernel to take better results. The two nonlinear feature provide richer discriminant information that may be supplementary to each other. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Discussion/Conclusion (their own limitations &amp;#x26; future work)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;To take better results from MKEML, between two kernels there must be good balance. (Polynomial kernel and Gaussian kernel)&lt;/li&gt;
+&lt;li&gt;Determining the number of hidden nodes for a specific application. (Time consuming)&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Future work: Investigating the finding a better kernel balance parameter.&lt;/p&gt;
+&lt;h3&gt;Reflection on how to adress the limitations of the paper (my ideas )&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;I could not see any limitations in the paper with my current knowlodge.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Datasets (Result)&lt;/h3&gt;
+&lt;p&gt; &lt;a href=&quot;http://www.bbci.de/competition/iii/&quot;&gt;http://www.bbci.de/competition/iii/&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Comparison/benchmark methods (Results section)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;EEG data of each trial were band-pass filtered between 4–40 Hz that covered most ERD features re-lated to MI. Features were then extracted by CSP with parameter M =1.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compared with this algorithms MLP, SVM, GKSVM, PKSVM, ELM, GKELM, PKELM and accuracy of algorithms showwd in table. &lt;strong&gt;MKELM has the best accuracy among each subject.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Code&lt;/h3&gt;
+&lt;p&gt;Code implementation could not be found though algorithm explained in the paper.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;2- Deep Learning Human Mind for Automated Visual Classification&lt;/h2&gt;
+&lt;h3&gt;Authors&lt;/h3&gt;
+&lt;p&gt;C. Spampinato, S. Palazzo, I. Kavasidis, D. Giordano&lt;/p&gt;
+&lt;h3&gt;Motivation and brief overview (from Abstract)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;First EEG data combined with Recurrent Neural Networks (RNN) to learn an discriminative brain activity manifold of visual categories in a reading the mind effort. After that, learned capabilities are transferred to machines by training a Convolutional Neural Network(CNN) based regressor to project images onto the learned manifold.&lt;/p&gt;
+&lt;h3&gt;Previous methods (Intro) &amp;#x26; their limitations&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Previous works are not satisfying for which parts of visual cortex and brain are responsible for such cognitive processes because of the difficulties of cognition-based methods to perform visual tasks.&lt;/p&gt;
+&lt;h3&gt;Proposed Solution&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A deep learning approach to classify EEG data evoked by visual object stimuli outperforming state-of-the-art methods both in the number of tackled object classes and in classification accuracy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The first computer vision approach driven by brain signals, the first automated classification approach employing visual descriptors extracted directly from human neural processes involved in visual scene analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Discoveries&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Convolutional Neural Network trained with human eeg feature representation.&lt;/p&gt;
+&lt;h3&gt;Discussion/Conclusion (their own limitations &amp;#x26; future work)&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;Their own limitations are not mentioned clearly.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Future work is developing more complex deep learning approaches and interpretong the EEG-learned features in order to identify brain activation areas.&lt;/p&gt;
+&lt;h3&gt;Reflection on how to adress the limitations of the paper (my ideas )&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I could not see any limitations in the paper with my current knowlodge.&lt;/p&gt;
+&lt;h3&gt;Datasets (Result)&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dataset was created by themselves and publicly released but I could find it yet. 40 image classes taken by ImageNet and used for stimulating the brain. EEG signals are recorded by device with 128 channel.&lt;/p&gt;
+&lt;h3&gt;Comparison/benchmark methods (Results section)&lt;/h3&gt;
+&lt;p&gt;Performance analysis divided in  three steps and they are at the below.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;learning visual stimuli–evoked EEG data using RNN&lt;/li&gt;
+&lt;li&gt;CNN-based regression to map images to RNN-learned EEG-based features&lt;/li&gt;
+&lt;li&gt;the combination of the above two steps to implement automated visual classifiers.&lt;/li&gt;
+&lt;li&gt;Their approach is compared with GoogleNet and VGG and it results better than VGG and almost same with the GoogleNet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Code&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Code is not shared.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3- An end-to-end deep learning approach to MI-EEG signal classification for BCIs&lt;/h2&gt;
+&lt;h3&gt;Authors&lt;/h3&gt;
+&lt;p&gt;Hauke Dose , Jakob S. Møller, Helle K. Iversen , Sadasivan Puthusserypada&lt;/p&gt;
+&lt;h3&gt;Motivation and brief overview (from Abstract)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Developing a Deep Learning approach for EEG based MI-BCI system could potentially be used the improve current stroke rehabilitation strategies.&lt;/p&gt;
+&lt;h3&gt;Previous methods (Intro) &amp;#x26; their limitations&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In this paper it is also mentioned that CSP and SVM most used algorithms for EEG classification but there writes also there is a previous work which MLP(multi-layer-perceptron) can be used with CSP instead of SVM. &lt;/p&gt;
+&lt;h3&gt;Proposed Solution&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CNN layers is used for learning generalization featuers and dimension reduction while a conventional Fully Connected(FC) layer is used for classification. Both togeher can be applied to the raw eeg signals.&lt;/p&gt;
+&lt;h3&gt;Discoveries&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This study has also shown that the predictor draws most relevant information from the beginning and the end of the imagined movement rather than the period in between. (quotation from the paper)&lt;/p&gt;
+&lt;h3&gt;Discussion/Conclusion (their own limitations &amp;#x26; future work)&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;This algorithm gives the best accuracy among all of them but competitors algorithm does not represent the current state of research in this area but accuracy is close to the %80 and coud be count as a success. &lt;/li&gt;
+&lt;li&gt;Deep learning need more data samples than other machine learning algorithms like SVM. It is one of the limitation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Future Work&lt;/strong&gt; A recurrent or other further developed models may be constructed in a way so it can use the presence of a probable movement onset to increase its prediction certainty for the following part of the recording as the movement type never changes abruptly in the given experimental paradigm.(quotation from the paper)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Reflection on how to adress the limitations of the paper (my ideas )&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I could not see any limitations in the paper with my current knowlodge.&lt;/p&gt;
+&lt;h3&gt;Datasets (Result)&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The selected global classifier reached 80.38%, 69.82%, and 58.58% mean accuracies for datasets with two, three, and four classes, respectively, validated using 5-fold crossvalidation. As a novel approach in this context, transfer learning was used to adapt the global classifier to single individuals improving the overall mean accuracy to 86.49%, 79.25%, and 68.51%, respectively. The global models were trained on 3s segments of EEG data from different subjects than they were tested on, which proved the generalization performance of the model.&lt;/p&gt;
+&lt;h3&gt;Comparison/benchmark methods (Results section)&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;This algorithm compared with other 5 algorithms which do not represent the state-of-art. Proposed algorithm outcomes all of them and gives the best accuracy among them.
+Compared algorithms are listed at the below&lt;/li&gt;
+&lt;li&gt;Park, Took, and Mandic (2014b) - SUT-CCSP SVM&lt;/li&gt;
+&lt;li&gt;Handiru and Prasad (2016) - FB-CSP SVM classifier&lt;/li&gt;
+&lt;li&gt;Kim et al. (2016b) - SUT-CCSP Random forest&lt;/li&gt;
+&lt;li&gt;Loboda et al. (2014) - Phase information&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tolic and Jovic (2013) - Wavelet transform DNN&lt;/p&gt;
+&lt;h3&gt;Code&lt;/h3&gt;
+&lt;/li&gt;
+&lt;li&gt;Code is not shared.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My Third Post!]]></title><description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, lorem vel aliquet feugiat, massa libero dictum turpis, fermentum…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//my-third-post/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//my-third-post/</guid><pubDate>Sat, 06 Jun 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, lorem vel aliquet feugiat, massa libero dictum turpis, fermentum volutpat leo mi interdum turpis. Aenean at finibus elit. Phasellus volutpat dui fringilla, rhoncus turpis eget, viverra nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque euismod, diam eget bibendum ultrices, arcu ipsum scelerisque nisl, at sollicitudin nunc tortor a dui. Integer placerat, sem vel posuere scelerisque, libero nunc efficitur sapien, vitae pharetra sem urna laoreet est. Duis non aliquam ex. Pellentesque interdum eros non feugiat dignissim. Nunc dictum mollis justo. Praesent quis blandit sapien. Donec quis sagittis ipsum. Etiam sit amet orci auctor, mattis lectus sed, porta sem. Sed non nisl facilisis, varius tortor et, eleifend nibh. Integer imperdiet, lacus nec consequat fringilla, lectus tortor accumsan leo, sit amet ullamcorper leo purus a libero. Nullam scelerisque enim et luctus aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
+&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce varius consequat iaculis. Aliquam nec justo odio. Fusce vitae est rutrum, tincidunt nisi a, posuere nisl. Aliquam vitae elit purus. Donec id odio id urna viverra ornare quis sit amet est. Pellentesque non lorem non lorem mattis eleifend id nec mauris.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//my-second-post/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e8976/salty_egg.jpg 148w,
+/static/8058f3f26913fea3b6a89a73344fe94a/63df2/salty_egg.jpg 295w,
+/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg 590w,
+/static/8058f3f26913fea3b6a89a73344fe94a/85e3d/salty_egg.jpg 885w,
+/static/8058f3f26913fea3b6a89a73344fe94a/d1924/salty_egg.jpg 1180w,
+/static/8058f3f26913fea3b6a89a73344fe94a/9452e/salty_egg.jpg 1770w,
+/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;</content:encoded></item></channel></rss>
