@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Mutluhan ÜZMEZ]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 20 Apr 2019 01:06:20 GMT</lastBuildDate><item><title><![CDATA[Paper Summaries for Graduation(EEG)]]></title><description><![CDATA[In this post, there will be explanations of keywords about the subject which is EEG(electroencephalogram) and BCI(brain-computer interface…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//paper-summaries-eeg/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//paper-summaries-eeg/</guid><pubDate>Sun, 07 Apr 2019 17:50:05 GMT</pubDate><content:encoded>&lt;p&gt;In this post, there will be explanations of keywords about the subject which is EEG(electroencephalogram) and BCI(brain-computer interface).&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Mutluhan ÜZMEZ]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 20 Apr 2019 01:17:16 GMT</lastBuildDate><item><title><![CDATA[Why I Am Starting A Blog?]]></title><description><![CDATA[Hi Everyone,  Before starting to my first blog post, I want to start with who I am and I will continue with why I am
+starting a new blog and…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//why-i-am-starting-a-blog/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//why-i-am-starting-a-blog/</guid><pubDate>Fri, 19 Apr 2019 21:28:03 GMT</pubDate><content:encoded>&lt;p&gt;Hi Everyone, &lt;/p&gt;
+&lt;p&gt;Before starting to my first blog post, I want to start with who I am and I will continue with why I am
+starting a new blog and what will I share in this blog. Let’s start with who I am.&lt;/p&gt;
+&lt;h2&gt;Who I Am?&lt;/h2&gt;
+&lt;p&gt;I am Mutluhan ÜZMEZ and I am studying computer engineering in ITU. It’s my last year at university. I was born in Eskişehir, moved around in Turkey because of my parents’ work and after I got into university, I started to live in Istanbul. After starting to my university, I always tried to improve myself in the software field. I joined the ITUNOM team in my first year of university. As a team, we participated in the AUVSI SUAS competition, which is the best-known competition for students in the field of unmanned aerial systems in Maryland, USA. After 2 years of work in ITUNOM team, I started to work in a
+startup which develops IOT systems for agriculture. I worked here part-time as a mobile application developer for approximately 1 year and I resigned after a year in order to focus more on the school. After a couple of months without responsibilities except school, I decided to start a blog.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4b48a121cee129ea878b1e021a0d251a/df95b/postcover.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 19.37869822485207%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA6klEQVQY02N4z8RAMXiNLvCOiYHpPTuD8gduBtH3bAxsH8UZOD4IMAh/YGfg/yjMwP6GgYH1AxcDy0dBBmagGskPvAzqQHG+D/wMbG+BciAz7gPxZy2ogV9t2Vi/2jG7fHVkcfzmzurwzZXFBsi2/ebG6vjdm9XzexCb4zdvVuXvvqyG39xY9IBq/IHiVkBxnx9h7JYgM37EcDJ+tYUa+P+nGsP//wpM/w9KMf/tEWb9v1GC6f9/Xcb/myWY/00WYf/XJSjxr1+Q5W+nIPP//xqM/z+rM/2/qMr4b5IY/79+URGQGf+6wBQDAMLOThObw3b9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Starting a Blog&quot;
+        title=&quot;&quot;
+        src=&quot;/static/4b48a121cee129ea878b1e021a0d251a/40fad/postcover.png&quot;
+        srcset=&quot;/static/4b48a121cee129ea878b1e021a0d251a/707e9/postcover.png 148w,
+/static/4b48a121cee129ea878b1e021a0d251a/649e0/postcover.png 295w,
+/static/4b48a121cee129ea878b1e021a0d251a/40fad/postcover.png 590w,
+/static/4b48a121cee129ea878b1e021a0d251a/df95b/postcover.png 676w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;h2&gt;Why I am starting a blog?&lt;/h2&gt;
+&lt;p&gt;There are 3 main reasons to start this blog for me. &lt;/p&gt;
+&lt;h3&gt;1- Reminders! I don’t want to forget any work I do, even small things.&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;The most important reason for starting a blog is this in my perspective because when I try to do
+a work which is similar or same work which is I have done before, sometimes I can not remember and
+start from nothing again and again. While I am updating my CV, in the skills section I am hesitating for writing some skills which I earned before because the passing time makes you forget them and these kinds of old skills can cause problems in interviews. So in order to don’t forget any skill or even I forget, try to remember them easily, I want to collect my all work in well-documented reports and do this in blog post format. &lt;/p&gt;
+&lt;h3&gt;2- Motivation! I believe that this blog will make me motivate for being more productive.&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;One of the most other important reason is that being more productive. After starting this blog, I need to create content for the blog, this means that I need to work more to write new posts. I need to think more about what should I do for the blog and how should I do. I am thinking like that people will be accessible to my writings, everybody can read, my writings must be completely correct. Basically, I will push myself harder to create more helpful and educative contents. Sometimes when I get lazy, the blog will come to my mind and I will feel like I need to do something for the blog and get motivated again. There can be sometimes which I don’t want to do anything, even for the blog but I believed that blog will make me more productive and creative.&lt;/p&gt;
+&lt;h3&gt;3- Portfolio! Showing all my works on my personal website.&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;This is also a serious reason to start a blog. If I was a recruiter for a software company when a CV comes to my hand I don’t want to read which language programming languages do you know, I want to know what kind of projects did you do with using those languages and how you did them. In a one paper document, it is hard to fit all the project details and people will continue to just write their programming language capabilities but in some applications, I did recently, companies want more than just a CV. In their application form, they may want your GitHub page or your personal webpage or your portfolio. Actually, my GitHub page is not impressive much these days but with starting this blog, I will also organize my GitHub page. So with that blog, I will also be creating a portfolio which shows my collection of works. Looks like I am advertising myself with the blog.&lt;/p&gt;
+&lt;p&gt;These are the main reasons for starting this blog. But there are some other small reasons for me like improving my writing skills, improving my English because I am planning to write all my posts in English, improving my coding skills and improving my social skills. I hope that this writing will be helpful for you and I hope you will start your blog in a short time. After I get more experienced about developing a blog I will be posted on how I build this website and you can build your own. If there are motivated people for starting a blog, I am developing this website using Gatsby. You can google it and you can read it’s documents and start your own blog. 💪&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Paper Summaries for Graduation(EEG)]]></title><description><![CDATA[In this post, there will be explanations of keywords about the subject which is EEG(electroencephalogram) and BCI(brain-computer interface…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//paper-summaries-eeg/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//paper-summaries-eeg/</guid><pubDate>Sun, 07 Apr 2019 17:50:05 GMT</pubDate><content:encoded>&lt;p&gt;In this post, there will be explanations of keywords about the subject which is EEG(electroencephalogram) and BCI(brain-computer interface).&lt;/p&gt;
 &lt;p&gt;All the &lt;code class=&quot;language-text&quot;&gt;unknown terms&lt;/code&gt; will be listed as randomly because I will write the explanations of term one by one when I saw one in an article.&lt;/p&gt;
 &lt;h3&gt;Unknown Terms in the Paper for me&lt;/h3&gt;
 &lt;ul&gt;
@@ -157,60 +211,4 @@ Compared algorithms are listed at the below&lt;/li&gt;
 &lt;h3&gt;Code&lt;/h3&gt;
 &lt;/li&gt;
 &lt;li&gt;Code is not shared.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[My Third Post!]]></title><description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, lorem vel aliquet feugiat, massa libero dictum turpis, fermentum…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//my-third-post/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//my-third-post/</guid><pubDate>Sat, 06 Jun 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eleifend, lorem vel aliquet feugiat, massa libero dictum turpis, fermentum volutpat leo mi interdum turpis. Aenean at finibus elit. Phasellus volutpat dui fringilla, rhoncus turpis eget, viverra nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque euismod, diam eget bibendum ultrices, arcu ipsum scelerisque nisl, at sollicitudin nunc tortor a dui. Integer placerat, sem vel posuere scelerisque, libero nunc efficitur sapien, vitae pharetra sem urna laoreet est. Duis non aliquam ex. Pellentesque interdum eros non feugiat dignissim. Nunc dictum mollis justo. Praesent quis blandit sapien. Donec quis sagittis ipsum. Etiam sit amet orci auctor, mattis lectus sed, porta sem. Sed non nisl facilisis, varius tortor et, eleifend nibh. Integer imperdiet, lacus nec consequat fringilla, lectus tortor accumsan leo, sit amet ullamcorper leo purus a libero. Nullam scelerisque enim et luctus aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.&lt;/p&gt;
-&lt;p&gt;Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce varius consequat iaculis. Aliquam nec justo odio. Fusce vitae est rutrum, tincidunt nisi a, posuere nisl. Aliquam vitae elit purus. Donec id odio id urna viverra ornare quis sit amet est. Pellentesque non lorem non lorem mattis eleifend id nec mauris.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//my-second-post/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//hello-world/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
-&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
-eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-charcoal paste. The eggs may also be sold with the salted paste removed,
-wrapped in plastic, and vacuum packed. From the salt curing process, the
-salted duck eggs have a briny aroma, a gelatin-like egg white and a
-firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-        alt=&quot;Chinese Salty Egg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e8976/salty_egg.jpg 148w,
-/static/8058f3f26913fea3b6a89a73344fe94a/63df2/salty_egg.jpg 295w,
-/static/8058f3f26913fea3b6a89a73344fe94a/f8fb9/salty_egg.jpg 590w,
-/static/8058f3f26913fea3b6a89a73344fe94a/85e3d/salty_egg.jpg 885w,
-/static/8058f3f26913fea3b6a89a73344fe94a/d1924/salty_egg.jpg 1180w,
-/static/8058f3f26913fea3b6a89a73344fe94a/9452e/salty_egg.jpg 1770w,
-/static/8058f3f26913fea3b6a89a73344fe94a/3f5a1/salty_egg.jpg 2048w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;/ul&gt;</content:encoded></item></channel></rss>
